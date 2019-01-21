@@ -110,8 +110,8 @@ get('/', function (req, res) {
           status: 'success'
         });
       });
-  }).listen(8080, function()
+  }).listen(3000, function()
   {
-    console.log('Server listening at http://localhost:8080/ddddddddddd');
+    console.log('Server listening at http://localhost:3000/ddddddddddd');
   });
 // Run `node ./server.js` in your terminal
